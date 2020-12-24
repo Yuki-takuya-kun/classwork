@@ -364,7 +364,7 @@ public class Catfish extends LivingBeing {
 	public String getImage() {
 		//System.out.println("img");
 		//return "resource/CatFish-right.gif";
-		String img=direction;
+		String img="resource/CatFish-up.gif";
 		switch(getDirection()) {
 			case UP:
 				img= "resource/CatFish-up.gif";
@@ -374,6 +374,7 @@ public class Catfish extends LivingBeing {
 				break;
 			case RIGHT:
 				img= "resource/CatFish-right.gif";
+				break;
 			case LEFT:
 				img= "resource/CatFish-left.gif";
 		}

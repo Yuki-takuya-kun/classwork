@@ -344,7 +344,7 @@ public class Crocodile extends LivingBeing {
 	 */
 	public String getImage() {
 
-		String img=direction;
+		String img="resource/Crocodile-right.gif";
 		switch(getDirection()) {
 			case UP:
 				img= "resource/Crocodile-up.gif";
@@ -354,6 +354,7 @@ public class Crocodile extends LivingBeing {
 				break;
 			case RIGHT:
 				img= "resource/Crocodile-right.gif";
+				break;
 			case LEFT:
 				img= "resource/Crocodile-left.gif";
 		}
