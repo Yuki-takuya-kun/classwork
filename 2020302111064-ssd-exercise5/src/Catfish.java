@@ -431,12 +431,12 @@ public class Catfish extends LivingBeing {
 			}
 			else if(algae.getRow()==this.row-1)
 			{
-				direction=DOWN;
+				direction=UP;
 				moveToRow(row-1);
 			}
 			else if(algae.getRow()==this.row+1)
 			{
-				direction=UP;
+				direction=DOWN;
 				moveToRow(row+1);
 			}
 

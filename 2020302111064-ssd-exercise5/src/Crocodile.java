@@ -402,12 +402,12 @@ public class Crocodile extends LivingBeing {
 			}
 			else if(catfish.getRow()==this.row-1)
 			{
-				direction=DOWN;
+				direction=UP;
 				moveToRow(row-1);
 			}
 			else if(catfish.getRow()==this.row+1)
 			{
-				direction=UP;
+				direction=DOWN;
 				moveToRow(row+1);
 			}
 			setEnergy(energy-ENERGY_TO_WADE);
